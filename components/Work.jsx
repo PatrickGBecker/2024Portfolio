@@ -26,6 +26,15 @@ const projectData = [
     github: 'https://github.com/PatrickGBecker/cerulean-media/',
   },
   {
+    image: '/work/muck-savage3.png',
+    category: 'Wordpress',
+    name: 'Muck Savage',
+    description:
+      'The purpose of this site was to create a responsive UI/UX design, a contact form that sends an email to the band, an easy way for users to hear our music and a page that displays the history of our performances.',
+    link: 'https://muck-savage.com/',
+    github: '/',
+  },
+  {
     image: '/work/mock-search-app.png',
     category: 'Next.js - Tailwind CSS - Mapbox',
     name: 'Mock Search App',
@@ -69,15 +78,6 @@ const projectData = [
       'This project was an 8-hour coding challenge. The Daily Dispatch allows users to browse article samples from various sections of The New York Times. The samples also include links to the full articles.',
     link: 'https://daily-dispatch.vercel.app/',
     github: 'https://github.com/PatrickGBecker/daily-dispatch/',
-  },
-  {
-    image: '/work/muck-savage.png',
-    category: 'Wordpress',
-    name: 'Muck Savage',
-    description:
-      'The purpose of this site was to create a responsive UI/UX design, a contact form that sends an email to the band, an easy way for users to hear our music and a page that displays the history of our performances.',
-    link: 'https://muck-savage.com/',
-    github: '/',
   },
   {
     image: '/work/sansukumi-ken.png',
