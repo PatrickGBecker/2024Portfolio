@@ -14,6 +14,15 @@ const projectData = [
     github: 'https://github.com/PatrickGBecker/cerulean-media/',
   },
   {
+    image: '/work/muck-savage.png',
+    category: 'Wordpress',
+    name: 'Muck Savage',
+    description:
+      'The purpose of this site was to create a responsive UI/UX design, a contact form that sends an email to the band, an easy way for users to hear our music and a page that displays the history of our performances.',
+    link: 'https://muck-savage.com/',
+    github: '/',
+  },
+  {
     image: '/work/mock-search-app.png',
     category: 'Next.js',
     name: 'Mock Search App',
@@ -41,6 +50,15 @@ const projectData = [
     github: '/',
   },
   {
+    image: '/work/hoovz.png',
+    category: 'HTML/CSS',
+    name: 'Hoovz Email Newsletter Template',
+    description:
+      'This email template showcases a comprehensive understanding of responsive email design, effective branding, and a unique voice that subscribers will recognize and trust.',
+    link: 'https://patrickgbecker.github.io/hoovzEmailTemplate/',
+    github: 'https://github.com/PatrickGBecker/hoovzEmailTemplate',
+  },
+  {
     image: '/work/rancid-tomatillos.png',
     category: 'React',
     name: 'Rancid Tomatillos',
@@ -59,15 +77,6 @@ const projectData = [
     github: 'https://github.com/PatrickGBecker/daily-dispatch/',
   },
   {
-    image: '/work/muck-savage.png',
-    category: 'Wordpress',
-    name: 'Muck Savage',
-    description:
-      'The purpose of this site was to create a responsive UI/UX design, a contact form that sends an email to the band, an easy way for users to hear our music and a page that displays the history of our performances.',
-    link: 'https://muck-savage.com/',
-    github: '/',
-  },
-  {
     image: '/work/sansukumi-ken.png',
     category: 'JavaScript',
     name: 'Sansukumi-Ken (Paper-Rock-Scissors)',
@@ -76,7 +85,7 @@ const projectData = [
     link: 'https://patrickgbecker.github.io/Sansukumi-Ken-Solo-Project/',
     github: 'https://github.com/PatrickGBecker/Sansukumi-Ken-Solo-Project/',
   },
-    {
+  {
     image: '/work/graphic-design.png',
     category: 'Adobe Dreamweaver',
     name: 'Digital Media Portfolio',

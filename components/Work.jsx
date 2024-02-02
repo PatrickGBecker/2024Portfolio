@@ -62,6 +62,15 @@ const projectData = [
     github: '/',
   },
   {
+    image: '/work/hoovz.png',
+    category: 'HTML - CSS - Adobe Photoshop',
+    name: 'Hoovz Email Newsletter Template',
+    description:
+      'This email template showcasing a comprehensive understanding of responsive email design, effective branding, and a unique voice that subscribers will recognize and trust.',
+    link: 'https://patrickgbecker.github.io/hoovzEmailTemplate/',
+    github: 'https://github.com/PatrickGBecker/hoovzEmailTemplate',
+  },
+  {
     image: '/work/rancid-tomatillos.png',
     category: 'React - Cypress.io Testing Framework',
     name: 'Rancid Tomatillos',
