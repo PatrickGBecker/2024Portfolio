@@ -35,7 +35,7 @@ const infoData = [
   },
   {
     icon: <HomeIcon className='text-[#5abb60]' size={20} />,
-    text: 'Kansas City Metropolitan Area',
+    text: 'Kansas City Area',
   },
 ];
 
@@ -59,42 +59,53 @@ const qualificationData = [
     title: 'experience',
     data: [
       {
-        company: 'Ascend Learning',
-        role: 'Associate Test Developer',
-        years: '2023 - Present',
+        company: 'Nebraska Furniture Mart',
+        role: 'Adobe Multi-Solutions Engineer',
+        years: '3/2024 - 5/2024',
       },
       {
         company: 'Moon Bloom Marketing Services',
-        role: 'Software Developer & Graphic Designer',
-        years: '2022 - Present',
+        role: 'Frontend Developer & Graphic Designer',
+        years: '11/2022 - 2/2024',
+      },
+      {
+        company: 'Ascend Learning',
+        role: 'Associate Test Developer',
+        years: '5/2023 - 1/2024',
       },
       {
         company: 'Westmont Hospitality Group',
         role: 'Regional Revenue Analyst',
-        years: '2020 - 2021',
+        years: '3/2020 - 4/2021',
       },
+      {
+        company: 'Sage Hospitality Management',
+        role: 'Front Office Supervisor/Revenue Analyst',
+        years: '7/2014 - 3/2020',
+      },
+
     ],
   },
 ];
 
 const skillData = [
   {
-    title: 'skills',
+    title: 'technical skills',
     data: [
       {
-        name: 'JavaScript, TypeScript, React.js,',
+        name: 'Adobe Workfront/Fusion, AEM, AEP Launch & Data Collection,'
       },
       {
-        name: 'HTML, CSS/SCSS, Tailwind,',
+        name: 'JavaScript, TypeScript, React.js, HTML, CSS/SCSS',
       },
       {
-        name: 'Next.js, Sanity.io, GraphQL,',
+        name: 'Next.js, Sanity.io, MySQL, GraphQL,',
       },
       {
-        name: 'Cypress.io Testing Framework, Jest, CircleCI Integration Platform,',
+        name: 'Cypress.io Testing, Jest, CircleCI Integration Platform,',
       },
       {
-        name: 'Wordpress, Squarespace, Adobe Suite,',
+        name: 'Wordpress, Squarespace, Adobe Creative Cloud,',
       },
       {
         name: 'and many more!',
@@ -140,7 +151,7 @@ const About = () => {
         <h2 className='section-title mb-8 mt-36 xl:mb-16 text-center mx-auto'>
           Who I Am
         </h2>
-        <div className='flex flex-col xl:flex-row'>
+        <div className='flex flex-col xl:flex-row relative'>
           {/* image */}
           <div className='hidden xl:flex flex-1 relative'>
             <DevImg
@@ -194,7 +205,7 @@ const About = () => {
                     <div className='flex flex-col gap-y-2'>
                       <div className='text-[#5abb60]'>Language Skill</div>
                       <div className='border-b border-border'></div>
-                      <div>Fluent English, Intermediate Spanish</div>
+                      <div>Fluent English, Conversational Spanish</div>
                     </div>
                   </div>
                 </TabsContent>
@@ -285,16 +296,16 @@ const About = () => {
                     <h3 className='h3 mb-8'>My Wheelhouse Technologies</h3>
                     {/* skills */}
                     <div className='mb-16'>
-                      <h4 className='text-[#5abb60] text-xl font-semibold mb-2'>Skills</h4>
+                      <h4 className='text-[#5abb60] text-xl font-semibold mb-2'>Technical Skills</h4>
                       <div className='border-b border-border mb-4'></div>
                       {/* skill list */}
                       <div>
-                        {getData(skillData, 'skills').data.map(
+                        {getData(skillData, 'technical skills').data.map(
                           (item, index) => {
                             const { name } = item;
                             return (
                               <div
-                                className='w-2/4 text-center xl:text-left mx-auto xl:mx-0'
+                                className='w-4/4 text-center xl:text-center mx-auto xl:mx-0'
                                 key={index}
                               >
                                 <div className='text-[#ae2a1e] font-medium'>{name}</div>

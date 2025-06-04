@@ -21,7 +21,7 @@ const projectData = [
     category: 'Next.js - Sanity.io - Tailwind CSS - Material UI',
     name: 'Cerulean Media',
     description:
-      'This app displays video & audio from a REST API, integrates SendGrid email functionality, and optimizes SEO with semantic, responsive UI/UX design & cross- browser functionality.',
+      'Designed, built and deployed a portfolio site with TypeScript, Next.js, Sanity CMS, Tailwind CSS and Material UI. The site displays video & audio from a RESTful API using GROQ to query data, integrates email functionality, and optimizes SEO with semantic code.',
     link: 'https://cerulean.media/',
     github: 'https://github.com/PatrickGBecker/cerulean-media/',
   },
