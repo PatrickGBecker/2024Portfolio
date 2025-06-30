@@ -50,7 +50,7 @@ const qualificationData = [
       },
       {
         university: 'Emporia State University',
-        qualification: 'Associate of Arts',
+        qualification: 'Bachelor of Arts',
         years: '2005 - 2009',
       },
     ],

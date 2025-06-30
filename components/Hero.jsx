@@ -35,7 +35,7 @@ const Hero = () => {
                 className='bg-[#5abb60] gap-x-2 min-w-44'>
                   <a
                     className='inline-flex items-center justify-center'
-                    href='./../PatrickBecker_Resume_2025_PDF.pdf' 
+                    href='./../Patrick_Becker_Resume_2025.pdf' 
                     target='_blank'
                     variant='secondary' 
                     >
