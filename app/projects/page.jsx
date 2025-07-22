@@ -87,11 +87,11 @@ const projectData = [
   },
   {
     image: '/work/graphic-design.png',
-    category: 'Adobe Dreamweaver',
+    category: 'Behance Profile',
     name: 'Digital Media Portfolio',
     description:
-      'This responsive site is a portfolio of wireframes, graphic design work and multi-media art. The purpose of the site is to display my design skills and project planning abilities.',
-    link: 'https://patrickgbecker.myportfolio.com/',
+      'My Behance profile page is a portfolio of wireframes, graphic design work and multi-media art. The purpose of the site is to display my design skills and project planning abilities.',
+    link: 'https://www.behance.net/imaginator',
     github: '/',
   },
 ];
