@@ -59,6 +59,15 @@ const projectData = [
     github: 'https://github.com/PatrickGBecker/hoovzEmailTemplate',
   },
   {
+    image: '/work/tortuga.jpg',
+    category: 'AngularJS',
+    name: 'Tortugas Quiz',
+    description:
+      'The purpose of this app is to convey a basic understanding of how to utilize directives, controllers, binding properties and AngularJS syntax with Bootstrap CSS for styling. The application itself is a quiz application with a little learning “Facts” area for users to study up before they take the quiz. The user will then get their results when they are finished.',
+    link: 'https://tortugas-quiz.vercel.app/',
+    github: 'https://github.com/PatrickGBecker/tortugasQuiz',
+  },
+  {
     image: '/work/rancid-tomatillos.png',
     category: 'React',
     name: 'Rancid Tomatillos',
